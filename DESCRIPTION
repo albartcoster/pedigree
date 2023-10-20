@@ -8,5 +8,7 @@ Depends: Matrix, HaploSim (>= 1.8.4), reshape, methods
 Description: Package containing pedigree related functions.
 License: GPL (>= 2)
 Author: Albart Coster [aut, cre]
+URL: https://github.com/albartcoster/pedigree
+BugReports: https://github.com/albartcoster/pedigree/issues
 Maintainer: Albart Coster <albart@dairyconsult.nl>
 
