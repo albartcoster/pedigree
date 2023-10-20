@@ -1,0 +1,11 @@
+2012-12-16 Albart Coster <albart@dairyconsult.nl>
+	* Function read.IPGPedigree is removed, this was a function to
+	read a very specfic pedigree file.
+	* Function errors.ped is removed, the code of this function is now
+	included in function orderPed.
+	* Function orderPed now checks for errors in the pedigree. Easy
+	errors, which previously could be controlled with function
+	errors.ped are detected (duplicate animals, animals with two
+	sexes). Loops in the pedigree will not cause crashes anymore but
+	will be reported to the user. The user remains responsible for
+	identifying and solving these errors.

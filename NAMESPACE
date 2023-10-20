@@ -1,0 +1,8 @@
+import("reshape","Matrix","HaploSim")
+useDynLib(pedigree)
+export("add.Inds","calcG","calcInbreeding","countOff",
+       "blup","calcG","countGen","gblup","calcInbreeding",
+       "makeA","makeAinv","trimPed","orderPed")
+importFrom("methods", "as")
+importFrom("stats", "model.frame", "model.matrix")
+importFrom("utils", "read.table")
